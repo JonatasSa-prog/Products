@@ -1,0 +1,10 @@
+C:\Users\jonatas.santos\Desktop\Project-Ueliton\Vendas\Vendas\bin\Debug\Vendas.exe.config
+C:\Users\jonatas.santos\Desktop\Project-Ueliton\Vendas\Vendas\bin\Debug\Vendas.exe
+C:\Users\jonatas.santos\Desktop\Project-Ueliton\Vendas\Vendas\bin\Debug\Vendas.pdb
+C:\Users\jonatas.santos\Desktop\Project-Ueliton\Vendas\Vendas\obj\Debug\Vendas.csprojAssemblyReference.cache
+C:\Users\jonatas.santos\Desktop\Project-Ueliton\Vendas\Vendas\obj\Debug\Vendas.Form1.resources
+C:\Users\jonatas.santos\Desktop\Project-Ueliton\Vendas\Vendas\obj\Debug\Vendas.Properties.Resources.resources
+C:\Users\jonatas.santos\Desktop\Project-Ueliton\Vendas\Vendas\obj\Debug\Vendas.csproj.GenerateResource.cache
+C:\Users\jonatas.santos\Desktop\Project-Ueliton\Vendas\Vendas\obj\Debug\Vendas.csproj.CoreCompileInputs.cache
+C:\Users\jonatas.santos\Desktop\Project-Ueliton\Vendas\Vendas\obj\Debug\Vendas.exe
+C:\Users\jonatas.santos\Desktop\Project-Ueliton\Vendas\Vendas\obj\Debug\Vendas.pdb
