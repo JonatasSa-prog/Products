@@ -8,3 +8,13 @@ C:\Users\jonatas.santos\Desktop\Project-Ueliton\Vendas\Vendas\obj\Debug\Vendas.c
 C:\Users\jonatas.santos\Desktop\Project-Ueliton\Vendas\Vendas\obj\Debug\Vendas.csproj.CoreCompileInputs.cache
 C:\Users\jonatas.santos\Desktop\Project-Ueliton\Vendas\Vendas\obj\Debug\Vendas.exe
 C:\Users\jonatas.santos\Desktop\Project-Ueliton\Vendas\Vendas\obj\Debug\Vendas.pdb
+C:\Users\jonat\Desktop\Nova pasta\Products\Vendas\obj\Debug\Vendas.csproj.AssemblyReference.cache
+C:\Users\jonat\Desktop\Nova pasta\Products\Vendas\obj\Debug\Vendas.Form1.resources
+C:\Users\jonat\Desktop\Nova pasta\Products\Vendas\obj\Debug\Vendas.Properties.Resources.resources
+C:\Users\jonat\Desktop\Nova pasta\Products\Vendas\obj\Debug\Vendas.csproj.GenerateResource.cache
+C:\Users\jonat\Desktop\Nova pasta\Products\Vendas\obj\Debug\Vendas.csproj.CoreCompileInputs.cache
+C:\Users\jonat\Desktop\Nova pasta\Products\Vendas\obj\Debug\Vendas.exe
+C:\Users\jonat\Desktop\Nova pasta\Products\Vendas\obj\Debug\Vendas.pdb
+C:\Users\jonat\Desktop\Nova pasta\Products\Vendas\bin\Debug\Vendas.exe.config
+C:\Users\jonat\Desktop\Nova pasta\Products\Vendas\bin\Debug\Vendas.exe
+C:\Users\jonat\Desktop\Nova pasta\Products\Vendas\bin\Debug\Vendas.pdb

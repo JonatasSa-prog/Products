@@ -14,9 +14,7 @@ namespace Vendas
     public partial class Form1 : Form
     {
         Products products = new Products();
-        Products auxProducts = new Products(1);
-       
-
+        
         public Form1()
         {
             InitializeComponent();
@@ -34,10 +32,9 @@ namespace Vendas
 
         private void Form1_Load(object sender, EventArgs e)
         {
-            dataGridView1.DataSource = null;
-            dataGridView1.DataSource = auxProducts.Lista();
-            dataGridView1.Refresh();
-
+            Resetar();
+            foreach(Product p in products.ListaName())
+                comboBox1.Items.Add(p.Name);
             label1.Text = "0";
 
         }
@@ -47,7 +44,7 @@ namespace Vendas
             try
             {
                 
-                auxProducts.AddProduct(products.GetByName(comboBox1.SelectedItem.ToString()),int.Parse(Qtd.Text));
+                products.AddProduct(products.GetByName(comboBox1.SelectedItem.ToString()),int.Parse(Qtd.Text));
                 label1.Text = products.GetTotalPrice().ToString();
                 
                 this.Resetar();
@@ -60,7 +57,7 @@ namespace Vendas
         public void Resetar()
         {
             dataGridView1.DataSource = null;
-            dataGridView1.DataSource = auxProducts.Lista();
+            dataGridView1.DataSource = products.Lista();
             dataGridView1.Refresh();
         }
         private void textBox2_TextChanged(object sender, EventArgs e)
@@ -69,6 +66,11 @@ namespace Vendas
         }
 
         private void comboBox1_SelectedIndexChanged(object sender, EventArgs e)
+        {
+
+        }
+
+        private void label1_Click(object sender, EventArgs e)
         {
 
         }

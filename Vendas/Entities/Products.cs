@@ -60,6 +60,11 @@ namespace Vendas.Entities
         }
         public List<Product> Lista()
         {
+            return (List<Product>)products.Where(p => p.Quantidade > 0).ToList();
+        }
+
+        public List<Product> ListaName()
+        {
             return products;
         }
     }

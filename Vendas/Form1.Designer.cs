@@ -29,6 +29,7 @@ namespace Vendas
         /// </summary>
         private void InitializeComponent()
         {
+            this.components = new System.ComponentModel.Container();
             this.Produto = new System.Windows.Forms.Label();
             this.Quantidade = new System.Windows.Forms.Label();
             this.Adicionar = new System.Windows.Forms.Button();
@@ -36,8 +37,10 @@ namespace Vendas
             this.dataGridView1 = new System.Windows.Forms.DataGridView();
             this.Total = new System.Windows.Forms.Label();
             this.comboBox1 = new System.Windows.Forms.ComboBox();
+            this.productsBindingSource = new System.Windows.Forms.BindingSource(this.components);
             this.label1 = new System.Windows.Forms.Label();
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.productsBindingSource)).BeginInit();
             this.SuspendLayout();
             // 
             // Produto
@@ -98,18 +101,15 @@ namespace Vendas
             // comboBox1
             // 
             this.comboBox1.FormattingEnabled = true;
-            this.comboBox1.Items.AddRange(new object[] {
-            "Notebook",
-            "Mouse",
-            "Monitor",
-            "Teclado",
-            "Memoria",
-            "Computador"});
             this.comboBox1.Location = new System.Drawing.Point(43, 49);
             this.comboBox1.Name = "comboBox1";
             this.comboBox1.Size = new System.Drawing.Size(121, 21);
             this.comboBox1.TabIndex = 9;
             this.comboBox1.SelectedIndexChanged += new System.EventHandler(this.comboBox1_SelectedIndexChanged);
+            // 
+            // productsBindingSource
+            // 
+            this.productsBindingSource.DataSource = typeof(Vendas.Entities.Products);
             // 
             // label1
             // 
@@ -119,6 +119,7 @@ namespace Vendas
             this.label1.Size = new System.Drawing.Size(35, 13);
             this.label1.TabIndex = 10;
             this.label1.Text = "label1";
+            this.label1.Click += new System.EventHandler(this.label1_Click);
             // 
             // Form1
             // 
@@ -137,6 +138,7 @@ namespace Vendas
             this.Text = "Form1";
             this.Load += new System.EventHandler(this.Form1_Load);
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.productsBindingSource)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -152,6 +154,7 @@ namespace Vendas
         private System.Windows.Forms.Label Total;
         private System.Windows.Forms.ComboBox comboBox1;
         private System.Windows.Forms.Label label1;
+        private System.Windows.Forms.BindingSource productsBindingSource;
     }
 }
 
